@@ -20,7 +20,6 @@
             display: flex;
             flex-direction: column;
             text-align: center;
-
         }
 
         header {
@@ -40,6 +39,7 @@
             max-width: 1200px;
             margin: 0 auto;
         }
+
         .semana {
             background-color: #011F65;
             border-radius: 15px;
@@ -49,7 +49,9 @@
             max-width: 700px;
             border-left: 6px solid #2078CF; 
             text-align: left;
+            color: #FFFFFF; /* Corrección para que el texto sea visible */
         }
+
         .semana h3 {
             color: #2078CF; 
             margin-top: 0;
@@ -59,14 +61,16 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 20x 50px;
+            padding: 20px 50px;
             background-color: #020C47;
             color: #2078CF;
         }
+
         footer img {
             transition: transform 0.3s ease;
             filter: brightness(1.2);
         }
+
         footer img:hover {
             transform: scale(1.15);
         }
@@ -80,10 +84,12 @@
         }
     </style>
 </head>
+
 <body>
     <header>
         <h1>Bitácora Segunda y Tercera Unidad</h1>
     </header>
+    
     <main>
         <h4 style="color: #0A4174;">Contenido Página WEB</h4>
         
@@ -92,22 +98,63 @@
             <p>En esta semana realizamos un PDF que nos introdujo al tema de Arduino.</p>
             <embed src="arduinopdf.pdf" type="application/pdf" width="100%" height="400px" style="max-width: 100%;"/>
             <p style="font-size: 0.8em; margin-top: 10px;">
-            <a href="arduinopdf.pdf" target="_blank">
-            </a>
+                <a href="arduinopdf.pdf" target="_blank"></a>
             </p>
         </div>
 
         <div class="semana">
             <h3>Semana 2: Modificaciones con la IA a mi CSS</h3>
             <p>Video de la Programación: <strong>PROGRA LED MAPG</strong></p>
-            <video controls>
-            <source src="PROGRA LED MAPG.mp4" type="video/mp4" width="100%" height="400px" style="max-width: 100%;"/>
+            <video controls width="100%" height="400px" style="max-width: 100%;">
+                <source src="PROGRA LED MAPG.mp4" type="video/mp4"/>
             </video>
         </div>
+
+        <div class="semana">
+            <h3>Semana 3: Primer Circuito Virtual</h3>
+            <p>Descripción de las actividades realizadas durante la semana 3.</p>
+        </div>
+
+        <div class="semana">
+            <h3>Semana 4: Primer Circuito Físico</h3>
+            <p>Descripción de las actividades realizadas durante la semana 4.</p>
+        </div>
+
+        <div class="semana">
+            <h3>Semana 5: Segundo Circuito</h3>
+            <p>Descripción de las actividades realizadas durante la semana 5.</p>
+        </div>
+
+        <div class="semana">
+            <h3>Semana 6: Tercer Circuito</h3>
+            <p>Descripción de las actividades realizadas durante la semana 6.</p>
+        </div>
+
+        <div class="semana">
+            <h3>Semana 7: Semáforo</h3>
+            <p>Descripción de las actividades realizadas durante la semana 7.</p>
+        </div>
+        
+        <div class="semana">
+            <h3>Semana 8: Sensor Ultrasónico</h3>
+            <p>Descripción de las actividades realizadas durante la semana 8.</p>
+        </div>
+
+        <div class="semana">
+            <h3>Semana 9: Sensor PIR</h3>
+            <p>Descripción de las actividades realizadas durante la semana 9.</p>
+        </div>
+
+        <div class="semana">
+            <h3>Semana 10: Suficiencia</h3>
+            <p>Descripción de las actividades realizadas durante la semana 10.</p>
+        </div>
     </main>
+
     <footer> 
         <span>2026 Marcos Paz</span>
         <img src="https://www.capouilliez.edu.gt/assets/img/logo.png" height="50px" width="200px" />
     </footer>
 </body>
+
 </html>
